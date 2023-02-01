@@ -28,15 +28,17 @@ body{
 
 
 .div2{
-    width: 1000%;
+    width: 100%;
     height: 200px;
     background-image: url(./road.jpg);
+    background-size: 100% 100%;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     background-repeat: repeat-x;
     animation: moverd 20s linear infinite;
+    
 }
 
 @keyframes moverd{
