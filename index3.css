@@ -23,7 +23,13 @@ body{
     height: 100px;
     position: relative;
     left: 1100px;
-    animation: movesun 10s linear ;
+    animation: movesun 10s infinite linear;
+}
+
+@keyframes movesun{
+    100%{
+        transform: translate(-100px);
+    }
 }
 
 
